@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_7"
+    tools:context=".Leave_request">
+
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="Today's Date"
+        android:inputType="textPersonName"
+        android:paddingVertical="20dp" />
+
+    <Button
+        android:id="@+id/editTextDate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNumber"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:inputType="date"
+        android:text="Leave Start &amp; End Date" />
+
+
+    <TextView
+        android:id="@+id/dates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextDate2"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:padding="10dp"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-16dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Type Of Leave"
+        android:inputType="textMultiLine"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="247dp"
+        android:layout_height="44dp"
+        android:layout_below="@+id/editTextTextMultiLine"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Number Of Days Requested"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dates"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="70dp"
+        android:padding="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint=" Name or Signature" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:layout_below="@+id/editTextTextPersonName7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Submit"
+        app:backgroundTint="#0E0E0E" />
+
+    <Button
+        android:id="@+id/back_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="299dp"
+        android:layout_marginBottom="17dp"
+        android:text="Home"
+        android:backgroundTint="@color/black"/>
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_7"
+    tools:context=".Employee">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewDetails"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="View Details"
+        android:paddingVertical="15dp"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="40dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/EditDetails"
+        android:layout_below="@+id/viewDetails"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="Edit Details"
+        android:paddingVertical="15dp"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="40dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/HolidayRequest"
+        android:layout_below="@+id/EditDetails"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="Request Leave"
+        android:paddingVertical="15dp"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="40dp"
+        />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="817dp"
+        android:backgroundTint="@color/black"
+        android:text="Log Out"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>
